@@ -73,14 +73,14 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
   const galleryMarkup = images.map(
     ({ preview, original, description }) => `
   <li class="gallery-item">
-    <a class="gallery-link" href="${original}">
-      <img
-        class="gallery-image"
-        src="${preview}"
-        alt="${description}"
-      />
-    </a>
-  </li>`
+	<a class="gallery-link" href="large-image.jpg">
+		<img 
+		  class="gallery-image" 
+		  src="small-image.jpg" 
+		  alt="Image description" 
+		/>
+	</a>
+</li>`
   )
   .join('');
     
