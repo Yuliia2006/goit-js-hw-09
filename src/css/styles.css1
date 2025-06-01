@@ -102,14 +102,16 @@ letter-spacing: 0.04em;
 color: #2e2f42;
 }
 .input.email {
-   <svg width="360" height="40" viewBox="0 0 360 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="359" height="39" rx="3.5" stroke="#808080" />
-</svg> 
+   width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
 }
 .textarea {
-    <svg width="360" height="80" viewBox="0 0 360 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="359" height="79" rx="3.5" stroke="#808080" />
-</svg>
+     width: 360px;
+  height: 80px;
+  border: 1px solid #808080;
+  border-radius: 4px;
 }
 .button {
     display: flex;
